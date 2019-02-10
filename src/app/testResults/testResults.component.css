@@ -1,0 +1,26 @@
+.container h2{
+  padding-left: 1em;
+  padding-right: 1em;
+  top: 10px;
+  color: red;
+  display: inline-block;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container{
+  margin-left: 10em;
+  margin-right: 10em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 10em;
+  background: #eaeaea;
+  border-radius: 5px;
+  border: 2px white solid;
+}
+.container button{
+  margin-bottom: 2em;
+  cursor: pointer;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}

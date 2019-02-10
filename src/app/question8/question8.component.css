@@ -1,0 +1,113 @@
+
+.content{
+
+  min-height: 80%;
+  margin: 2em;
+  background: #eaeaea;
+
+  border-radius: 5px;
+  border: 2px white solid;
+}
+
+.div {
+    top: 10px;
+    color: #333;
+    display: inline-block;
+    text-align: justify;
+    background: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 30px;
+    position: relative;
+
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  .container .btn {
+    position: absolute;
+
+    opacity: 0;
+    color: #999;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  .container .btn:hover {
+    opacity: 5;
+    border-radius: 5px;
+    background: #fff;
+
+  }
+
+  .container #btn2 {
+    padding: 0;
+    top: 5px;
+    right: 368px;
+    width: 20px;
+    height: 21px;
+
+  }
+
+  .container #btn1 {
+    padding: 0;
+    top: 109px;
+    right: 372px;
+    width: 55px;
+    height: 17px;
+    text-align: left;
+    padding-left: 7px;
+    padding-bottom: 6px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #f78f00;
+    border-radius: 50px;
+    border: 2px solid #f78f00;
+    background: transparent;
+  }
+
+  .container #btn3 {
+    padding: 0;
+    bottom: 169px;
+    right: 373px;
+    width: 26px;
+    height: 27px;
+    font-size:18px;
+    color: #f78f00;
+  }
+  .container #btn3:hover{
+    background: white;
+    border: 3px solid white;
+    border-radius: 3px;
+    background-blend-mode: soft-light;
+  }
+
+  .container #btn4 {
+    padding: 0;
+    top:109px;
+    left: 113px;
+    width: 14px;
+    height: 14px;
+    background: #f78f00;
+    border: 1px solid #f78f00;
+    border-radius: 50%;
+  }
