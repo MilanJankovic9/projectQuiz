@@ -12,7 +12,7 @@ import { Question7Component } from './question7/question7.component';
 import { Question8Component } from './question8/question8.component';
 import { Question9Component } from './question9/question9.component';
 import { Question10Component } from './question10/question10.component';
-
+import { Question11Component } from './question11/question11.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -28,6 +28,7 @@ const routes: Routes = [
   { path: 'test/question8', component: Question8Component },
   { path: 'test/question9', component: Question9Component },
   { path: 'test/question10', component: Question10Component },
+  { path: 'test/question11', component: Question11Component },
 ];
 
 @NgModule({
