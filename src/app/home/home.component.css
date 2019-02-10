@@ -41,6 +41,10 @@
 #section-b{
     padding: 2em 1em 1em;
 }
+#section-b pre{
+  padding-left: 0;
+  text-align: left;
+}
 
 #section-b ul{
     list-style: none;
@@ -122,6 +126,19 @@
     .box,
     #main-footer div{
         grid-column: span 2;
+    }
+
+    pre{
+      padding-left: 1em;
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      text-align: left;
+    }
+    pre a{
+      text-decoration: none;
+    }
+    pre span{
+      color: #333;
+      font-weight: bold;
     }
 
 }
