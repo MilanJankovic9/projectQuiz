@@ -40,20 +40,20 @@
      }
 
    .example-card:first-child {
-     width: 400px;
+     width: 450px;
      margin-left: 100px;
      margin-bottom: 50px;
-     min-height: 350px;
+     height: 350px;
      float: left;
      display: inline-block;
      position: relative;
    }
 
    .example-card:last-child{
-     width: 400px;
+     width: 450px;
      margin-right: 100px;
      margin-bottom: 50px;
-     min-height: 350px;
+     height: 350px;
      float: right;
      display: inline-block;
      position: relative;
