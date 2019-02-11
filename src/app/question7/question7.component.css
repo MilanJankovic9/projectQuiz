@@ -1,10 +1,12 @@
 .content{
 
-  height: 20%;
-  margin: 2em;
+  min-height: 88vh;
+  margin: 3%;
   background: #eaeaea;
   border-radius: 5px;
   border: 2px white solid;
+  text-align: center;
+  justify-content: center;
 }
 .div {
   top: 10px;
@@ -22,24 +24,15 @@
   padding-left: 1em;
   padding-right: 1em;
 }
-.container h2{
+h2{
   padding-left: 1em;
   padding-right: 1em;
-  top: 10px;
+  padding-top: 20vh;
+  top: 20%;
   color: red;
-  display: inline-block;
-  text-align: justify;
+  display: block;
+  text-align: center;
+  justify-self: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.container{
-  margin-left: 10em;
-  margin-right: 10em;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-top: 10em;
-  background: #eaeaea;
-  border-radius: 5px;
-  border: 2px white solid;
 }

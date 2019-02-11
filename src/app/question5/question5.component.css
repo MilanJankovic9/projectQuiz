@@ -1,8 +1,8 @@
 
 .content{
 
-  min-height: 80%;
-  margin: 2em;
+  min-height: 88vh;
+  margin: 3%;
   background: #eaeaea;
   border-radius: 5px;
   position: absolute;
@@ -30,6 +30,7 @@
      padding: 2em 2em;
      position: relative;
       width: 100%;
+
      }
 
      #img1, #img2, #img4{
@@ -70,7 +71,7 @@
 
      z-index: 5;
      font-size: 17px;
-     margin-left: -1.9em;
+     margin-left: -1.5em;
    }
    button:hover{
      background: #333;

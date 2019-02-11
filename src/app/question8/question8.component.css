@@ -1,8 +1,8 @@
 
 .content{
 
-  min-height: 80%;
-  margin: 2em;
+  min-height: 88vh;
+  margin: 3%;
   background: #eaeaea;
 
   border-radius: 5px;
@@ -104,10 +104,10 @@
   .container #btn4 {
     padding: 0;
     top:109px;
-    left: 113px;
-    width: 14px;
-    height: 14px;
+    left: 111px;
+    width: 15px;
+    height: 15px;
     background: #f78f00;
-    border: 1px solid #f78f00;
+
     border-radius: 50%;
   }

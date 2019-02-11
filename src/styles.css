@@ -57,3 +57,7 @@ h3 span{
   color: #f7833b;
   margin-right: 1em;
 }
+
+*{
+  overflow-x: hidden;
+}
