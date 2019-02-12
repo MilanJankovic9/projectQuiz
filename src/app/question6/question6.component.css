@@ -10,7 +10,7 @@
 }
 .div {
   top: 10px;
-  color: #333;
+  color: #f78f00;
   display: inline-block;
   text-align: justify;
   background: #eaeaea;
@@ -105,4 +105,8 @@
     border-radius: 5px;
     border: #f78f00 2px solid;
     background: transparent;
+  }
+
+  h3 span{
+    color: #333;
   }

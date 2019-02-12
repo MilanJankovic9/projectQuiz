@@ -4,14 +4,13 @@
   min-height: 88vh;
   margin: 3%;
   background: #eaeaea;
-
   border-radius: 5px;
   border: 2px white solid;
 }
 
 .div {
     top: 10px;
-    color: #333;
+    color: #f78f00;
     display: inline-block;
     text-align: justify;
     background: #eaeaea;
@@ -110,4 +109,8 @@
     background: #f78f00;
 
     border-radius: 50%;
+  }
+
+  h3 span{
+    color: #333;
   }

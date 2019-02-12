@@ -2,7 +2,7 @@
   .content{
 
     min-height: 88vh;
-  margin: 3%;
+    margin: 3%;
     background: #eaeaea;
 
     border-radius: 5px;
@@ -11,7 +11,7 @@
 
   .div {
       top: 10px;
-      color: #333;
+      color: #f78f00;
       display: inline-block;
       text-align: justify;
       background: #eaeaea;
@@ -96,4 +96,8 @@
     width: 22px;
     height: 22px;
     font-weight: bold;
+  }
+
+  h3 span{
+    color: #333;
   }

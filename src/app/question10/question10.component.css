@@ -11,7 +11,7 @@
 
 .div {
     top: 10px;
-    color: #333;
+    color: #f78f00;
     display: inline-block;
     text-align: justify;
     background: #eaeaea;
@@ -104,4 +104,8 @@
     background: transparent;
     border: 2px solid #f78f00;
     border-radius: 2px;
+  }
+
+  h3 span{
+    color: #333;
   }
