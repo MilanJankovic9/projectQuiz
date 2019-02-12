@@ -7,7 +7,7 @@
 #showcase .bg-image{
     position: absolute;
     background-position: center;
-    background-image: url('https://www.gala-global.org/sites/default/files/styles/profile_header_image/public/company_header_image/Interprefy_1150.png?itok=wGSms4aG');
+    background-image: url(../../assets/Interprefy_logo_background.JPEG);
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
