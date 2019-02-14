@@ -1,0 +1,40 @@
+.content{
+
+  min-height: 88vh;
+  margin: 3%;
+  background: #eaeaea;
+  border-radius: 5px;
+  border: 2px white solid;
+}
+.div {
+  top: 10px;
+  color: #333;
+  display: inline-block;
+  text-align: justify;
+  background: #eaeaea;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+h2{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 20vh;
+  top: 20%;
+  color: red;
+  display: block;
+  text-align: center;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 span{
+  color: #f7833b;
+}

@@ -5,16 +5,16 @@ import { Injectable } from '@angular/core';
 })
 export class AppServiceService {
 
-points = 0
+  points = 0;
 
   constructor() { }
 
-setPoints(points){
-  this.points+=points
-}
+  setPoints(points: number) {
+    this.points += points;
+  }
 
-resetPoints(){
-  this.points=0;
-}
+  resetPoints() {
+    this.points = 0;
+  }
 
 }

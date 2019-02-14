@@ -1,0 +1,22 @@
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+
+.example-full-width{
+  justify-content: center;
+}
+
+.example-card mat-card-header{
+  justify-content: center;
+}
+mat-form-field{
+  width: 80%;
+}
+.mat-input-element{
+  caret-color: #f37c00;
+}

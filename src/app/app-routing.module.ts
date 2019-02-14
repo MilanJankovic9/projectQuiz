@@ -13,9 +13,15 @@ import { Question8Component } from './question8/question8.component';
 import { Question9Component } from './question9/question9.component';
 import { Question10Component } from './question10/question10.component';
 import { Question11Component } from './question11/question11.component';
+import { LoginComponent } from './login/login.component';
+import { Question12Component } from './question12/question12.component';
+import { Question13Component } from './question13/question13.component';
+import { Question14Component } from './question14/question14.component';
+import { Question15Component } from './question15/question15.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'testResults', component: TestResultsComponent },
   { path: 'test/question1', component: Question1Component },
@@ -28,7 +34,11 @@ const routes: Routes = [
   { path: 'test/question8', component: Question8Component },
   { path: 'test/question9', component: Question9Component },
   { path: 'test/question10', component: Question10Component },
-  { path: 'test/question11', component: Question11Component }
+  { path: 'test/question11', component: Question11Component },
+  { path: 'test/question12', component: Question12Component },
+  { path: 'test/question13', component: Question13Component },
+  { path: 'test/question14', component: Question14Component },
+  { path: 'test/question15', component: Question15Component }
 ];
 
 @NgModule({

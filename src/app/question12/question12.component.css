@@ -1,0 +1,96 @@
+
+.content{
+
+  min-height: 88vh;
+  margin: 3%;
+  background: #eaeaea;
+  border-radius: 5px;
+  position: absolute;
+  border: 2px white solid;
+  min-width: 94%;
+}
+.div {
+  top: 10px;
+  color: #333;
+  display: inline-block;
+  text-align: justify;
+  background: #eaeaea;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+   .container {
+     padding: 2em;
+     position: relative;
+      width: 95%;
+      display: grid;
+       grid-template-columns: repeat(4,300px);
+       display: flex;
+       justify-content: space-around;
+     }
+
+      #img3{
+       display: block;
+       margin-top: 5%;
+       width: 95%;
+       height: 70%;
+       margin-left: 2.5%;
+     }
+     #img4{
+      display: block;
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 70%;
+     }
+     #img2{
+      margin-top: 5%;
+      margin-left: 2%;
+      width: 96%;
+      height: 70%;
+     }
+     #img1{
+      width: 96%;
+      height: 60%;
+      margin-top: 5%;
+      margin-left: 2%;
+     }
+
+
+
+   .example-card{
+     max-width: 350px;
+     height: 350px;
+     display: inline-block;
+     position: relative;
+
+   }
+
+   button{
+     text-decoration: none;
+     width: 100%;
+     padding: 1em 1em;
+     background: #eaeaea;
+     color: #333;
+     border: #333 1px solid;
+
+     z-index: 5;
+     font-size: 17px;
+     margin-left: -1.5em;
+   }
+   button:hover{
+     background: #333;
+     color: #fff;
+     cursor: pointer;
+   }
+
+   h3 span{
+    color: #f7833b;
+  }

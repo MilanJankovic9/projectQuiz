@@ -27,16 +27,26 @@ export class Question11Component implements OnInit {
           this.appService.setPoints(8);
         }
 
-        this.router.navigate(['testResults']);
+        this.router.navigate(['test/question12']);
       }
     } else {
 
-      this.router.navigate(['testResults']);
+      this.router.navigate(['test/question12']);
     }
   }
 
   @HostListener('window:keyup', ['$event'])
   keyEvent(event: KeyboardEvent) {
     this.onKey(event);
+  }
+
+  @HostListener('window:beforeunload', ['$event'])
+  unloadNotification($event: any) {
+    if (this.hasUnsavedData()) {
+      $event.returnValue = true;
+    }
+  }
+  hasUnsavedData(): any {
+    return true;
   }
 }

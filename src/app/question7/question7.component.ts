@@ -26,5 +26,15 @@ export class Question7Component implements OnInit {
   keyEvent(event: KeyboardEvent) {
     this.onKey(event);
   }
+
+  @HostListener('window:beforeunload', ['$event'])
+  unloadNotification($event: any) {
+    if (this.hasUnsavedData()) {
+      $event.returnValue = true;
+    }
+  }
+  hasUnsavedData(): any {
+    return true;
+  }
 }
 

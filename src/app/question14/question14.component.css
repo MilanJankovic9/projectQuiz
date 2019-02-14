@@ -1,0 +1,112 @@
+
+.content{
+
+  min-height: 88vh;
+  margin: 3%;
+  background: #eaeaea;
+  border-radius: 5px;
+  border: 2px white solid;
+
+}
+.div {
+  top: 10px;
+  color: #f78f00;
+  display: inline-block;
+  text-align: justify;
+  background: #eaeaea;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    display: block;
+    padding-bottom: 30px;
+    position: relative;
+
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  .container .btn {
+    position: absolute;
+    opacity: 0;
+    color: #999;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+  .container .btn:hover {
+    opacity: 1;
+    border-radius: 5px;
+    background: #fff;
+
+  }
+
+  .container #btn2 {
+    padding: 0;
+    top: 60px;
+    left: 252px;
+    width: 54px;
+    height: 21px;
+  }
+  #btn2:hover{
+    opacity: 1;
+    border-radius: 5px;
+    border: #00b0ef 2px solid;
+    background: transparent;
+  }
+
+  .container #btn1 {
+    padding: 0;
+    top: 5px;
+    right: 342px;
+    width: 21px;
+    height: 21px;
+  }
+
+  .container #btn3 {
+    padding: 0;
+    top: 6px;
+    right: 313px;
+    width: 20px;
+    height: 20px;
+    font-size:18px;
+    color: #f78f00;
+  }
+
+  .container #btn4 {
+    padding: 0;
+    top:60px;
+    right: 381px;
+    width: 54px;
+    height: 21px;
+
+
+  }
+
+  #btn4:hover{
+    opacity: 1;
+    border-radius: 5px;
+    border: #f78f00 2px solid;
+    background: transparent;
+  }
+
+  h3 span{
+    color: #333;
+  }

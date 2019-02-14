@@ -7,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'Interprefy';
-  
-  constructor() { }
+
+  constructor() {
+    history.pushState(null, null, location.href);
+    window.onpopstate = function () {
+        history.go(1);
+    };
+   }
 
   ngOnInit() {
   }
