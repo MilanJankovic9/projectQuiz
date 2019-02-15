@@ -13,6 +13,9 @@ export class Question7Component implements OnInit {
   constructor(private appService: AppServiceService, private router: Router) { }
 
   ngOnInit() {
+    if(!this.appService._firstName || !this.appService._lastName){
+      this.router.navigate(['login'])
+    }
   }
 
   onKey(event: any) {

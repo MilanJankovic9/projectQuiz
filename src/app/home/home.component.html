@@ -2,13 +2,22 @@
 
 <header id="showcase" class="grid">
 
+    <button class="menu" mat-button [matMenuTriggerFor]="menu">
+        <img id="userImg" src="assets/user.png">  <span>{{firstName}} {{lastName}}</span>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button class="subMenu" mat-menu-item (click)="logout()">
+        <img id="logoutImg"src="assets/logout.png">
+        Logout
+      </button>
+    </mat-menu>
   <div class="bg-image"></div>
   <div class="content-wrap">
     <h1>Welcome to Interprefy platform test for Interpreters!</h1>
     <p>
       Read more about it bellow!
     </p>
-    <a href="#section-b" class="button">Read More</a>
+    <a (click) = "scroll(sectionA)" class="button">Read More</a>
   </div>
 </header>
 
@@ -16,9 +25,9 @@
 
 <main id="main">
   <!--Section A -->
-  <section id="section-a" class="grid">
+  <section #sectionA id="section-a" class="grid">
     <div class="content-wrap">
-      <h2 class="content-title">About <a href="#section-a">Video</a> & <a href="#section-a">Testing</a></h2>
+      <h2 class="content-title">About <a >Video</a> & <a >Testing</a></h2>
       <div class="content-text">
         <p>
           This test will take you through most important functions on the platform necessary for delivering a perfect
@@ -30,12 +39,11 @@
         <p>We wish you good luck!</p>
 
       </div>
-      <a href="test/question1" class="button">Start test</a>
+      <a [routerLink]="['/test/question1']" class="button">Start test</a>
     </div>
   </section>
 
-  <!--Section B-->
-  <section id="section-b" class="grid">
+  <section #sectionB id="sectionB" class="grid">
     <ul>
       <li>
         <div class="card">

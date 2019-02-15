@@ -1,7 +1,7 @@
 <div class="container">
 <div >
-  <h2>Thank you for completing our test! One of our managers will contact you with results in next few days. Good luck in future events, we look forward to continue working with you.</h2>
-  <h2>Test results: {{ finishPoints }}pts / 100pts</h2>
+  <h2>Thank you {{firstName}} {{lastName}} for completing our test! One of our managers will contact you with results in next few days. Good luck in future events, we look forward to continue working with you.</h2>
+  <h2>Your test results are: {{ finishPoints }}pts / 100pts </h2>
 </div>
 <div>
   <button (click)="reset()" class="button">Home</button>

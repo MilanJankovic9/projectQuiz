@@ -12,6 +12,9 @@ export class Question3Component implements OnInit {
   constructor(private appService: AppServiceService, private router: Router) { }
 
   ngOnInit() {
+    if(!this.appService._firstName || !this.appService._lastName){
+      this.router.navigate(['login'])
+    }
   }
 
   setPoints(points) {

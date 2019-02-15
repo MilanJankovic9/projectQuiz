@@ -27,7 +27,8 @@ import { Question15Component } from './question15/question15.component';
 import { LoginComponent } from './login/login.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material';
-
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { MatMenuModule } from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +60,10 @@ import { MatInputModule } from '@angular/material';
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatMenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -5,15 +5,17 @@
     </mat-card-header>
     <mat-card-content class="example-full-width">
       <mat-form-field>
-        <input matInput placeholder="Username" required>
+        <input matInput placeholder="First Name" [(ngModel)]="firstName" required>
+        <mat-error *ngIf="firstName==''">Please enter fist name</mat-error>
       </mat-form-field>
       <br /><br />
       <mat-form-field>
-        <input matInput type="password" placeholder="Password" required>
+        <input matInput placeholder="Last Name" [(ngModel)]="lastName" required>
+        <mat-error *ngIf="lastName==''">Please enter last name</mat-error>
       </mat-form-field>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-raised-button (click)="login()" color="primary">Login</button>
+      <button [disabled]="!firstName || !lastName" mat-button (click)="login()" class="btn">Login</button>
     </mat-card-actions>
   </mat-card>
 </div>

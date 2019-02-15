@@ -8,15 +8,23 @@ import { Router } from '@angular/router';
   styleUrls: ['./question1.component.css']
 })
 export class Question1Component implements OnInit {
-
+  firstName;
+  lastName;
   constructor(private appService: AppServiceService, private router: Router) {
     history.pushState(null, null, location.href);
     window.onpopstate = function () {
-        history.go(1);
+      history.go(1);
     };
+
+    console.log(this.appService._firstName);
+
+
   }
 
   ngOnInit() {
+    if(!this.appService._firstName || !this.appService._lastName){
+      this.router.navigate(['login'])
+    }
   }
 
   setPoints(points) {

@@ -22,6 +22,8 @@ import { Question15Component } from './question15/question15.component';
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
+  { path: '#section-a', redirectTo: '/home/#section-a', pathMatch: 'full' },
+  { path: '#section-b', redirectTo: '/home/#section-b', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'testResults', component: TestResultsComponent },
   { path: 'test/question1', component: Question1Component },
