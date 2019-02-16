@@ -26,7 +26,7 @@
 }
 
 .container {
-    width: 1000px;
+    width: 1150px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -60,24 +60,24 @@
 
   .container #btn2 {
     padding: 0;
-    top: 5px;
-    right: 368px;
-    width: 20px;
-    height: 21px;
+    top: 7px;
+    right: 425px;
+    width: 21px;
+    height: 22px;
 
   }
 
   .container #btn1 {
     padding: 0;
-    top: 109px;
-    right: 372px;
-    width: 55px;
-    height: 17px;
+    top: 125px;
+    right: 427px;
+    width: 65px;
+    height: 20px;
     text-align: left;
-    padding-left: 7px;
-    padding-bottom: 6px;
-    font-size: 11px;
-    font-weight: bold;
+    padding-left: 9.3px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: bolder;
     color: #f78f00;
     border-radius: 50px;
     border: 2px solid #f78f00;
@@ -86,10 +86,10 @@
 
   .container #btn3 {
     padding: 0;
-    bottom: 169px;
-    right: 373px;
-    width: 26px;
-    height: 27px;
+    bottom: 190px;
+    right: 429px;
+    width: 29px;
+    height: 31px;
     font-size:18px;
     color: #f78f00;
   }
@@ -102,10 +102,10 @@
 
   .container #btn4 {
     padding: 0;
-    top:109px;
-    left: 111px;
-    width: 15px;
-    height: 15px;
+    top:125px;
+    left: 130px;
+    width: 16px;
+    height: 16px;
     background: #f78f00;
 
     border-radius: 50%;

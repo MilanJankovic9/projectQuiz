@@ -26,7 +26,7 @@
 }
 
 .container {
-    width: 1000px;
+    width: 1270px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -60,9 +60,9 @@
 
   .container #btn2 {
     padding: 0;
-    top: 60px;
-    left: 252px;
-    width: 54px;
+    top: 70px;
+    left: 355px;
+    width: 61px;
     height: 21px;
   }
   #btn2:hover{
@@ -75,15 +75,15 @@
   .container #btn1 {
     padding: 0;
     top: 5px;
-    right: 342px;
+    right: 450px;
     width: 21px;
     height: 21px;
   }
 
   .container #btn3 {
     padding: 0;
-    top: 6px;
-    right: 313px;
+    top: 8px;
+    right: 417px;
     width: 20px;
     height: 20px;
     font-size:18px;
@@ -92,14 +92,11 @@
 
   .container #btn4 {
     padding: 0;
-    top:60px;
-    right: 381px;
-    width: 54px;
+    top:70px;
+    right: 494px;
+    width: 61px;
     height: 21px;
-
-
   }
-
   #btn4:hover{
     opacity: 1;
     border-radius: 5px;

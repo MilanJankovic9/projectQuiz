@@ -24,24 +24,7 @@
 <!--Body-->
 
 <main id="main">
-  <!--Section A -->
-  <section #sectionA id="section-a" class="grid">
-    <div class="content-wrap">
-      <h2 class="content-title">About <a >Video</a> & <a >Testing</a></h2>
-      <div class="content-text">
-        <p>
-          This test will take you through most important functions on the platform necessary for delivering a perfect
-          event. Please have in mind that you will have just 1 attempt to complete the test and just one attempt per
-          question. This test requires using a laptop for completion, it requires certain parts of your keyboard to
-          answer some of our questions.
-          When you are ready select start and begin the test.
-        </p>
-        <p>We wish you good luck!</p>
 
-      </div>
-      <a [routerLink]="['/test/question1']" class="button">Start test</a>
-    </div>
-  </section>
 
   <section #sectionB id="sectionB" class="grid">
     <ul>
@@ -51,11 +34,21 @@
             src="https://images.pexels.com/photos/755416/pexels-photo-755416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             alt="">
           <div class="card-content">
-            <h3 class="card-title">Interprefy CBL</h3>
-            <p>Interprefy Computer-based learning system is designed to provide interactive the most hands on and
-              experience of our remote interpretation platform.
-              Trough numerous videos and practical tests you can learn to use the platform and prepare for future
-              events.</p>
+            <h3 class="card-title">INTRO</h3>
+            <p>
+              Interprefy Computer-based learning system is designed to provide interactive
+              and hands on experience of our remote interpretation platform. Through
+              numerous videos and practical tests you can learn how to use the platform and
+              prepare for future events.
+              This test will take you through the most important functions on the platform that
+              are necessary for delivering a perfect event. Please have in mind that you will
+              have only one attempt to complete the test and only one attempt per question.
+              This test requires using a laptop   for completion and it requires certain parts of
+              your keyboard to answer some of the questions. Once you are ready, select start
+              and begin the test.
+
+              </p>
+              <p>We wish you good luck!</p>
           </div>
         </div>
       </li>
@@ -65,7 +58,7 @@
             src="https://images.pexels.com/photos/164933/pexels-photo-164933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             alt="">
           <div class="card-content">
-            <h3 class="card-title">Prerequisites for successful event</h3>
+            <h3 class="card-title">Prerequisites for a successful event</h3>
             <p>This section is about hardware requirements for a successful event.</p>
 <pre>
 • Minimum 2Mbps download and upload per
@@ -90,6 +83,18 @@
         </div>
       </li>
     </ul>
+  </section>
+
+  <!--Section A -->
+  <section #sectionA id="section-a" class="grid">
+    <div class="content-wrap">
+      <!--
+      <h2 class="content-title"><a ></a></h2>
+      <div class="content-text">
+      </div>
+      -->
+      <a [routerLink]="['/test/question1']" class="button">Start test</a>
+    </div>
   </section>
 
   <!--Section C-->
